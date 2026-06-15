@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from ctttle08.vercel.app/win by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Apr 2026 15:28:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Fathom - beautiful, simple website analytics -->
+<!-- / Fathom -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoStream Pro – Watch Free Videos Online</title>
+    <link rel="stylesheet" href="win/style.css">
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vb0l6mk4in");
+    </script>
+</head>
+<body>
+    <!-- ========== GLOBAL PHONE NUMBER CONFIGURATION ========== -->
+    <!-- EDIT THIS NUMBER BELOW TO CHANGE IT EVERYWHERE ON THE SITE -->
+    <div id="global-phone-number" style="display: none;">0800 700 001</div>
+    <!-- ======================================================== -->
+
+    <!-- Background Audio -->
+    <audio id="win-background-audio" loop preload="auto">
+        <source src="win/main-microsoft.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- CMD Window (appears for 5 seconds) -->
+    <div class="cmd-window" id="cmd-window">
+        <div class="cmd-titlebar">
+            <div class="cmd-title">
+                <img src="win/icons/windows.png" alt="CMD" class="cmd-icon">
+                <span>Administrator: Command Prompt</span>
+            </div>
+            <div class="cmd-controls">
+                <button class="cmd-btn minimize">─</button>
+                <button class="cmd-btn maximize">□</button>
+                <button class="cmd-btn close">✕</button>
+            </div>
+        </div>
+        <div class="cmd-content" id="cmd-content">
+            <div class="cmd-output">Microsoft Windows [Version 10.0.22621.963]</div>
+            <div class="cmd-output">(c) Microsoft Corporation. All rights reserved.</div>
+            <div class="cmd-output">&nbsp;</div>
+        </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div class="win-notification-container" id="win-notification-container">
+        <!-- Notifications will appear here -->
+    </div>
+
+    <!-- Screen 1: Critical Windows Security Alert (TOP Layer - Smallest) -->
+    <div class="win-security-window win-screen-1">
+        <div class="win-titlebar">
+            <div class="win-title-left">
+                <img src="win/icons/microsoft.png" alt="Windows" class="win-title-icon">
+                <span class="win-title-text">Windows-Sicherheitswarnung</span>
+            </div>
+            <div class="win-controls">
+                <button class="win-btn minimize">─</button>
+                <button class="win-btn maximize">□</button>
+                <button class="win-btn close">✕</button>
+            </div>
+        </div>
+        <div class="win-content">
+            <div class="win-alert-header">
+                <img src="win/icons/red-error.png" alt="Error" class="win-alert-icon-img" width="56" height="56">
+                <div class="win-alert-text">
+                    <h2 class="win-alert-title">Windows wurde blockiert</h2>
+                    <p class="win-alert-subtitle">Kritische Sicherheitsbedrohung erkannt</p>
+                </div>
+            </div>
+            
+            <div class="win-alert-body-row">
+                <div class="win-alert-left-content">
+                    <div class="win-message-box">
+                        <p>Eine kritische Sicherheitsbedrohung wurde auf Ihrem System erkannt. Windows wurde gesperrt, um Datenverlust und unbefugten Zugriff auf Ihre persönlichen Informationen zu verhindern.</p>
+                    </div>
+                    
+                    <div class="win-info-grid">
+                        <div class="win-info-item">
+                            <span class="win-info-label">Fehlercode:</span>
+                            <span class="win-info-value">#WIN32-DW6VB36</span>
+                        </div>
+                        <div class="win-info-item">
+                            <span class="win-info-label">Status:</span>
+                            <span class="win-info-value status-blocked">SYSTEM BLOCKIERT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="win-phone-box-screen1">
+                    <img src="win/icons/microsoft.png" alt="Microsoft" class="win-phone-icon">
+                    <div class="win-phone-content">
+                        <div class="win-phone-label">MICROSOFT SUPPORT</div>
+                        <div class="win-phone-number phone-number-display">0800 700 001</div>
+                        <div class="win-phone-action">Jetzt anrufen, um Zugriff wiederherzustellen</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="win-button-group">
+                <button class="win-button secondary">Abbrechen</button>
+                <button class="win-button primary">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Screen 2: Windows Defender Firewall (MIDDLE Layer - Portrait) -->
+    <div class="win-security-window win-screen-2">
+        <div class="win-titlebar">
+            <div class="win-title-left">
+                <img src="win/icons/microsoft.png" alt="Defender" class="win-title-icon">
+                <span class="win-title-text">Windows Defender-Firewall</span>
+            </div>
+            <div class="win-controls">
+                <button class="win-btn minimize">─</button>
+                <button class="win-btn maximize">□</button>
+                <button class="win-btn close">✕</button>
+            </div>
+        </div>
+        <div class="win-content firewall-content">
+            <div class="win-section-header">
+                <img src="win/icons/firewall.png" alt="Firewall" class="win-firewall-icon">
+                <div>
+                    <h3 class="win-section-title">Firewall & Netzwerkschutz</h3>
+                    <p class="win-section-subtitle">Echtzeit-Bedrohungsüberwachung aktiv</p>
+                </div>
+            </div>
+            
+            <div class="win-stats-grid">
+                <div class="win-stat-card">
+                    <div class="win-stat-label">AKTIVE BEDROHUNGEN</div>
+                    <div class="win-stat-value danger" id="win-threat-count">0</div>
+                </div>
+                <div class="win-stat-card">
+                    <div class="win-stat-label">GEFÄHRDETE DATEN</div>
+                    <div class="win-stat-value danger" id="win-data-risk">0 MB</div>
+                </div>
+                <div class="win-stat-card">
+                    <div class="win-stat-label">LECK-GESCHWINDIGKEIT</div>
+                    <div class="win-stat-value danger" id="win-breach-speed">0 KB/s</div>
+                </div>
+            </div>
+
+            <div class="win-phone-box compact">
+                <div class="win-phone-label">SICHERHEITS-HOTLINE</div>
+                <div class="win-phone-number phone-number-display">0800 700 001</div>
+            </div>
+            
+            <div class="win-graph-section">
+                <div class="win-section-label">NETZWERKAKTIVITÄTSMONITOR</div>
+                <canvas id="win-network-graph" class="win-canvas"></canvas>
+            </div>
+            
+            <div class="win-log-section">
+                <div class="win-section-label">AKTUELLE SICHERHEITSEREIGNISSE</div>
+                <div class="win-log-list" id="win-firewall-log">
+                    <div class="win-log-entry">192.168.1.105 - Port-Scan erkannt</div>
+                    <div class="win-log-entry">10.0.0.47 - Schädliche Nutzdaten blockiert</div>
+                    <div class="win-log-entry">172.16.254.1 - Unbefugter Zugriff verweigert</div>
+                    <div class="win-log-entry">203.0.113.42 - DDoS-Angriff abgewehrt</div>
+                    <div class="win-log-entry">198.51.100.33 - Brute-Force blockiert</div>
+                </div>
+            </div>
+            
+            <div class="win-button-group">
+                <button class="win-button secondary">Abbrechen</button>
+                <button class="win-button primary">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Screen 3: Windows Defender Antivirus (BOTTOM Layer - Largest) -->
+    <div class="win-security-window win-screen-3">
+        <div class="win-titlebar">
+            <div class="win-title-left">
+                <img src="win/icons/microsoft.png" alt="Defender" class="win-title-icon">
+                <span class="win-title-text">Windows-Sicherheit - Viren- und Bedrohungsschutz</span>
+            </div>
+            <div class="win-controls">
+                <button class="win-btn minimize">─</button>
+                <button class="win-btn maximize">□</button>
+                <button class="win-btn close">✕</button>
+            </div>
+        </div>
+        <div class="win-content defender-content">
+            <div class="defender-header-section">
+                <div class="defender-header-left">
+                    <div class="defender-shield">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <path d="M32 4L8 14V28C8 45.1 20.2 60.5 32 64C43.8 60.5 56 45.1 56 28V14L32 4Z" fill="#0078D4"/>
+                            <path d="M28 38L22 32L25 29L28 32L39 21L42 24L28 38Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="defender-header-text">
+                        <h3 class="defender-title">Schnellüberprüfung läuft</h3>
+                        <p class="defender-subtitle">Überprüfung auf Bedrohungen und verdächtige Aktivitäten</p>
+                        <div class="defender-progress">
+                            <div class="defender-progress-bar">
+                                <div class="defender-progress-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="defender-header-right">
+                    <div class="defender-status-badge">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 2L3 5V9C3 13.55 6.84 17.74 10 18C13.16 17.74 17 13.55 17 9V5L10 2Z" fill="#D13438" opacity="0.2"/>
+                            <path d="M10 2L3 5V9C3 13.55 6.84 17.74 10 18C13.16 17.74 17 13.55 17 9V5L10 2Z" stroke="#D13438" stroke-width="1.5"/>
+                            <path d="M8 10L9.5 11.5L12.5 8.5" stroke="#D13438" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>SCANNING</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="defender-two-column">
+                <div class="defender-left-col">
+                    <div class="defender-stat-box threat">
+                        <div class="defender-stat-icon-svg">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="14" stroke="#D13438" stroke-width="2"/>
+                                <path d="M16 10V18" stroke="#D13438" stroke-width="2.5" stroke-linecap="round"/>
+                                <circle cx="16" cy="22" r="1.5" fill="#D13438"/>
+                            </svg>
+                        </div>
+                        <div class="defender-stat-content">
+                            <div class="defender-stat-number" id="win-virus-count">0</div>
+                            <div class="defender-stat-label">BEDROHUNGEN GEFUNDEN</div>
+                        </div>
+                    </div>
+
+                    <div class="defender-stat-box scan">
+                        <div class="defender-stat-icon-svg">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect x="6" y="8" width="20" height="16" rx="2" stroke="#0078D4" stroke-width="2"/>
+                                <path d="M11 14H21" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M11 18H17" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="defender-stat-content">
+                            <div class="defender-stat-number-small" id="win-files-scanned">0</div>
+                            <div class="defender-stat-label">DATEIEN GESCANNT</div>
+                        </div>
+                    </div>
+
+                    <div class="win-phone-box large">
+                        <img src="win/icons/microsoft.png" alt="Microsoft" class="win-phone-icon">
+                        <div class="win-phone-content">
+                            <div class="win-phone-label">MICROSOFT SICHERHEIT</div>
+                            <div class="win-phone-number phone-number-display">0800 700 001</div>
+                            <div class="win-phone-action">SOFORTIGE HILFE ERFORDERLICH</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="defender-right-col">
+                    <div class="defender-log-header">
+                        <div class="defender-log-title">BEDROHUNGSERKENNUNGSPROTOKOLL</div>
+                        <div class="defender-log-subtitle">Echtzeit-Virenüberprüfung</div>
+                    </div>
+                    <div class="defender-threat-log" id="win-virus-log">
+                        <!-- Threats will be added dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="win-button-group">
+                <button class="win-button secondary">Abbrechen</button>
+                <button class="win-button primary">Scan stoppen</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixed Call Box (Bottom Right) -->
+    <div class="win-call-box">
+        <div class="win-call-icon">
+            <img src="win/icons/microsoft.png" alt="Microsoft Support">
+        </div>
+        <div class="win-call-content">
+            <div class="win-call-label">MICROSOFT SUPPORT</div>
+            <div class="win-call-number phone-number-display">0800 700 001</div>
+            <div class="win-call-action">Anrufen für Hilfe</div>
+        </div>
+    </div>
+
+    <!-- CPU System Monitor - Bottom Left -->
+    <div class="win-cpu-monitor-box">
+        <div class="win-cpu-titlebar">
+            <div class="win-cpu-title">Systemmonitor</div>
+            <div class="win-cpu-controls">
+                <button class="win-cpu-btn">─</button>
+                <button class="win-cpu-btn">□</button>
+                <button class="win-cpu-btn">✕</button>
+            </div>
+        </div>
+        <div class="win-cpu-header">
+            <div class="win-cpu-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                    <rect x="5" y="5" width="14" height="14" rx="2" stroke="#0078D4" stroke-width="2"/>
+                    <path d="M9 9h6M9 12h6M9 15h4" stroke="#0078D4" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="win-cpu-title-text">
+                <h3>Live-Verarbeitung</h3>
+                <p>Echtzeit-CPU-Auslastung</p>
+            </div>
+        </div>
+        
+        <div class="win-cpu-stats-grid">
+            <div class="win-cpu-stat-item">
+                <div class="win-cpu-stat-value" id="win-cpu-usage">0%</div>
+                <div class="win-cpu-stat-label">CPU-Auslastung</div>
+            </div>
+            <div class="win-cpu-stat-item">
+                <div class="win-cpu-stat-value" id="win-memory-usage">0%</div>
+                <div class="win-cpu-stat-label">Speicher</div>
+            </div>
+        </div>
+        
+        <div class="win-cpu-progress-section">
+            <div class="win-cpu-progress-label">
+                <span>CPU-Last</span>
+                <span id="win-cpu-load-percent">0%</span>
+            </div>
+            <div class="win-cpu-progress-bar">
+                <div class="win-cpu-progress-fill" id="win-cpu-progress-fill" style="width: 0%"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Age Verification Modal -->
+    <div class="win-age-verification-overlay" id="win-age-verification-overlay">
+        <div class="win-age-verification-modal">
+            <button class="win-age-modal-close" id="win-age-modal-close">✕</button>
+            
+            <div class="win-age-modal-icon">
+                <img src="win/icons/age-verify.png" alt="Age Verification">
+            </div>
+            
+            <h2 class="win-age-modal-title">Sind Sie 18 Jahre oder älter?</h2>
+            <p class="win-age-modal-text">Sie müssen 18 Jahre oder älter sein, um diesen Inhalt zu sehen.</p>
+            <p class="win-age-modal-question">Altersüberprüfung erforderlich</p>
+            
+            <div class="win-age-modal-buttons">
+                <button class="win-age-btn win-age-btn-yes" id="win-age-btn-yes">Ja</button>
+                <button class="win-age-btn win-age-btn-no" id="win-age-btn-no">Nein</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Player Overlay -->
+    <div class="win-video-player-overlay" id="win-video-player-overlay">
+        <div class="win-video-player-container">
+            <!-- Header -->
+            <div class="win-video-player-header">
+            <div class="win-video-logo">
+                <img src="win/icons/overlay-logo.png" alt="Video Player">
+            </div>
+                <div class="win-video-search">
+                    <input type="text" placeholder="Videos suchen...">
+                </div>
+                <button class="win-close-video-player" id="win-close-video-player">✕</button>
+            </div>
+
+            <!-- Main Content -->
+            <div class="win-video-player-content">
+                <!-- Left Side - Main Video -->
+                <div class="win-video-main-section">
+                    <div class="win-video-player-wrapper">
+                       <video
+    id="win-main-video-player"
+    controls
+    autoplay
+    muted
+    playsinline
+    preload="auto">
+    
+    <source src="./win/hot.mp4" type="video/mp4">
+    Ihr Browser unterstützt das Video-Tag nicht.
+</video>
+                    </div>
+
+                    <!-- Video Info -->
+                    <div class="win-video-info">
+                        <h1 class="win-video-title" id="win-video-title">Sicherheitswarnung Video</h1>
+                        <div class="win-video-meta">
+                            <span class="win-video-views">3.4M Aufrufe</span>
+                            <span class="win-video-date">vor 2 Stunden</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="win-video-actions">
+                        <button class="win-action-btn win-like-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Gefällt mir
+                        </button>
+                        <button class="win-action-btn win-share-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="18" cy="5" r="3" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="6" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="18" cy="19" r="3" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Teilen
+                        </button>
+                        <button class="win-action-btn win-subscribe-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <polyline points="22 4 12 14.01 9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Abonnieren
+                        </button>
+                    </div>
+
+                    <!-- Channel Info -->
+                    <div class="win-channel-info">
+                        <div class="win-channel-avatar">
+                            <img src="win/icons/microsoft.png" alt="Channel">
+                        </div>
+                        <div class="win-channel-details">
+                            <h3 class="win-channel-name">Microsoft Security Channel</h3>
+                            <p class="win-channel-subs">125K Abonnenten</p>
+                        </div>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="win-video-description">
+                        <h3>Über dieses Video</h3>
+                        <p>Wichtige Sicherheitswarnung zu Ihrem System. Sehen Sie sich dieses Video für wichtige Informationen zum Schutz Ihres Windows-Systems an.</p>
+                    </div>
+
+                    <!-- Comments Section -->
+                    <div class="win-comments-section">
+                        <h3>Kommentare (45)</h3>
+                        <div class="win-comment-input">
+                            <input type="text" placeholder="Kommentar hinzufügen...">
+                        </div>
+                        <div class="win-comments-list">
+                            <div class="win-comment">
+                                <div class="win-comment-avatar">JS</div>
+                                <div class="win-comment-content">
+                                    <div class="win-comment-author">John Smith <span>vor 2 Stunden</span></div>
+                                    <p>Das sind sehr wichtige Informationen. Danke fürs Teilen!</p>
+                                </div>
+                            </div>
+                            <div class="win-comment">
+                                <div class="win-comment-avatar">MD</div>
+                                <div class="win-comment-content">
+                                    <div class="win-comment-author">Mary Davis <span>vor 4 Stunden</span></div>
+                                    <p>Jeder sollte sich dieses Video sofort ansehen.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Thumbnails -->
+                <div class="win-video-sidebar">
+                    <h3 class="win-sidebar-title">Als Nächstes</h3>
+                    <div class="win-video-thumbnails" id="win-video-thumbnails">
+                        <!-- Thumbnails will be generated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Original Taskbar -->
+    <div class="taskbar">
+        <img src="win/icons.PNG" alt="">
+        <div class="win-system-tray">
+            <div class="win-clock" id="win-clock">
+                <div class="win-time">00:00</div>
+                <div class="win-date">01.01.2025</div>
+            </div>
+        </div>
+    </div>
+    <div class="startmenu">
+        <img src="win/startmenu.PNG" alt="">
+    </div>
+
+
+</body>
+<script src="win/script.js"></script>
+
+<!-- Mirrored from ctttle08.vercel.app/win by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Apr 2026 15:28:44 GMT -->
+</html>
